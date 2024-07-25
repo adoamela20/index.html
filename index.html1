@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Katarina Lazić - Umetnica i Ilustrator</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background-color: #444;
+            padding: 0.5rem 0;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            margin: 0 1rem;
+        }
+        nav a:hover {
+            text-decoration: underline;
+        }
+        section {
+            padding: 2rem;
+            margin: 1rem auto;
+            max-width: 800px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1rem 0;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Katarina Lazić</h1>
+        <p>Umetnica i Ilustrator</p>
+    </header>
+
+    <nav>
+        <a href="#about">O meni</a>
+        <a href="#projects">Projekti</a>
+        <a href="#blog">Blog</a>
+        <a href="#contact">Kontakt</a>
+    </nav>
+
+    <section id="about">
+        <h2>O meni</h2>
+        <p>Zdravo! Ja sam Katarina Lazić, umetnica i ilustrator iz Srbije. Moje strasti uključuju stvaranje vizuelne umetnosti koja inspiriše i pokreće emocije. Radim na različitim projektima, od ilustracija za knjige do digitalnih umetničkih dela. Dobrodošli na moju web stranicu gde možete saznati više o meni i mom radu.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projekti</h2>
+        <p>Ovde su neki od mojih najnovijih projekata:</p>
+        <ul>
+            <li>Ilustracija za dečju knjigu "Avanture malog zmaja"</li>
+            <li>Digitalna umetnost: Serija "Priroda i fantazija"</li>
+            <li>Posteri za lokalne kulturne događaje</li>
+        </ul>
+    </section>
+
+    <section id="blog">
+        <h2>Blog</h2>
+        <p>Dobrodošli na moj blog gde delim misli, ideje i procese rada. Pratite moje najnovije postove:</p>
+        <ul>
+            <li><a href="#">Kako pronalazim inspiraciju za ilustracije</a></li>
+            <li><a href="#">Saveti za digitalno crtanje</a></li>
+            <li><a href="#">Moji omiljeni umetnički alati</a></li>
+        </ul>
+    </section>
+
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <p>Ako imate pitanja ili želite da sarađujete, slobodno me kontaktirajte:</p>
+        <p>Email: <a href="mailto:katarina@example.com">katarina@example.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Katarina Lazić. Sva prava zadržana.</p>
+    </footer>
+
+</body>
+</html>
